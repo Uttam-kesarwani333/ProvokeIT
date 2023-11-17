@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  /* Change background color to a light gray */
+  color: #333;
+  /* Change text color to dark gray */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  /* Change container background color to white */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h2 {
+  color: #e91e63;
+  /* Change heading color to a shade of pink */
+}
+
+label {
+  color: #ff2222;
+  /* Change label text color to red */
+}
+
+input {
+  border: 1px solid #ccc;
+  /* Lighter border for input fields */
+  background-color: #f9f9f9;
+  /* Change input background color to a very light gray */
+  color: #333;
+  /* Change text color to dark gray */
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #e91e63;
+  /* Change button background color to a shade of pink */
+  color: #fff;
+  /* Change button text color to white */
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c2185b;
+  /* Change button background color on hover to a darker shade of pink */
+}
